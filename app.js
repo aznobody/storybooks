@@ -16,4 +16,4 @@ mongoose.connect(keys.mongoURI, { useNewUrlParser: true })
 app.use('/auth', authRouter);
 //start server
 const port = process.env.PORT || 81
-app.listen(port, () => console.log('Server started on port' + port + '..'));
+app.listen(port, () => console.log('Server started on port' + port + '...'));
