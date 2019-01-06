@@ -4,6 +4,11 @@ const router = express.Router();
 
 router.get('/google', passport.authenticate('google', { scope: ['profile', 'email'] }));
 
+
+router.get('/tempGoogle',(req,res)=>{
+    //res.locals.user={firstName:"Naveen",lastName:"Verma"};
+    res.render('index/dashboard',{user:{firstName:"Naveen",lastName:"Verma"}});
+});
 router.get('/google/callback',
     passport.authenticate('google', { failureRedirect: '/' }), (req, res) => {
         res.redirect('/dashboard');
