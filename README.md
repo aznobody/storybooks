@@ -1,7 +1,7 @@
 # StoryBooks
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-StoryBooks is Node.js webApp for writing or reading stories.
+StoryBooks is Node.js webApp for writing/reading stories and Comment on them.
 Stories can be Private or Public.
 
 ## Tech Features!
